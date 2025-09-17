@@ -1,30 +1,81 @@
 // Centralised user-facing text for localisation. Keep keys descriptive.
 export const strings = {
+  common: {
+    processing: "Processing...",
+    notSpecified: "Not specified",
+    edit: "Edit",
+    discard: "Discard",
+    saveContract: "Save Contract",
+    editContract: "Edit Contract",
+    close: "Close",
+  },
   app: {
-    title: 'Contract Extractor',
+    title: "Contract Extractor",
   },
   taskPanel: {
-    open: 'Show task',
-    close: 'Hide task',
+    open: "Show task",
+    close: "Hide task",
   },
   upload: {
-    heading: 'Upload a contract PDF',
+    cardTitle: "Upload Contract PDF",
+    heading: "Upload a contract PDF",
     description:
-      'Select a PDF to begin extraction. This starter only provides the UI; you will wire the API and persistence as part of the task.',
-    fileLabel: 'Contract PDF',
-    fileHelp: 'PDF only is sufficient for the prototype.',
-    selectFile: 'Choose file',
-    submit: 'Upload & extract',
-    missingFile: 'Please select a PDF file before uploading.',
-    uploading: 'Uploading…',
+      "Select a PDF to begin extraction. This starter only provides the UI; you will wire the API and persistence as part of the task.",
+    fileLabel: "Contract PDF",
+    fileHelp: "PDF only is sufficient for the prototype.",
+    selectFile: "Choose file",
+    chooseFile: "Choose PDF File",
+    submit: "Upload & extract",
+    missingFile: "Please select a PDF file before uploading.",
+    uploading: "Uploading…",
+    extracting: "Extracting contract data...",
+    ctaNoFile: "Select a PDF file to upload",
+    dropHere: "Drop your PDF file here",
+    fileSelected: "File selected successfully!",
+    dragOrBrowse: "Drag and drop your PDF here or click to browse",
+    hintFormats: "• Supported formats: PDF",
+    hintMaxSize: "• Maximum file size: 10MB",
+    hintTextOnly: "• Text-based PDFs only (not scanned images)",
+    successTitle: "Upload Successful",
+    uploadAnother: "Upload Another",
+    extractedToastPrefix: "Contract data extracted!",
   },
   results: {
-    heading: 'Extracted data',
-    description: 'This section displays the extracted fields after a successful upload.',
-    empty: 'No data yet. Upload a PDF to see extracted results here.',
+    heading: "Extracted Contract Data",
+    description:
+      "This section displays the extracted fields after a successful upload.",
+    empty: "No data yet. Upload a PDF to see extracted results here.",
+    validDataExtracted: "Valid Contract Data Extracted",
+    editPrompt: "Edit the contract data below:",
+    reviewPrompt:
+      "Please review the extracted data below and save if correct.",
+    contractDetails: "Contract Details",
+  },
+  validation: {
+    imagePdfErrorPrefix:
+      "Invalid contract: Only {wordCount} words found. This appears to be an image-based PDF that cannot be processed.",
+    lowDataErrorPrefix:
+      "Invalid contract: Only {wordCount} words found. Not enough meaningful data extracted. Please try a different document.",
+  },
+  contracts: {
+    heading: "Your Contracts",
+    description: "Manage and view your extracted contracts.",
+    noContracts:
+      "No contracts found. Upload your first contract to get started.",
+    noExpiringSoon: "No contracts expiring soon",
+    loading: "Loading contracts...",
+    renewalDue: "Renewal Due",
+    daysUntilRenewal: "days until renewal",
+    viewContract: "View",
+    editContract: "Edit",
+    saveChanges: "Save Changes",
+    cancelChanges: "Cancel",
+    scheduleReminder: "Schedule 30-day Renewal Reminder",
+    reminderScheduled: "Reminder scheduled successfully!",
+    contractUpdated: "Contract updated successfully!",
   },
   task: {
-    heading: 'AI‑Powered PDF Data Extraction Prototype',
+    heading: "AI‑Powered PDF Data Extraction Prototype",
     descriptionMd: `
 Context
 We need to extract relevant information from a wide variety of contract PDFs quickly and accurately, even when each document has a different structure or layout.
