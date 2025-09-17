@@ -1,0 +1,24 @@
+[
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440000",
+    "user_id": "550e8400-e29b-41d4-a716-446655440001",
+    "contract_holder_name": "John Doe",
+    "contract_id": "CONTRACT-001",
+    "renewal_date": "2024-12-31T23:59:59.000Z",
+    "service_product": "Cloud Storage Service",
+    "contact_email": "john.doe@example.com",
+    "created_at": "2024-01-01T00:00:00.000Z",
+    "updated_at": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440002",
+    "user_id": "550e8400-e29b-41d4-a716-446655440001",
+    "contract_holder_name": "Jane Smith",
+    "contract_id": "CONTRACT-002",
+    "renewal_date": "2024-06-15T23:59:59.000Z",
+    "service_product": "API Service",
+    "contact_email": "jane.smith@example.com",
+    "created_at": "2024-01-15T00:00:00.000Z",
+    "updated_at": "2024-01-15T00:00:00.000Z"
+  }
+]
